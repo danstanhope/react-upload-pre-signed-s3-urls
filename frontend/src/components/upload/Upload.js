@@ -27,9 +27,10 @@ const SignedUploadDragAndDrop = () => {
 
     let { file } = files;
     let { name, type } = file;
-
+    let gateway = '<YOUR APIGATEWAY ENDPOINT URL>';
+    
     const response = await axios(
-      '<YOUR APIGATEWAY ENDPOINT URL>' +
+      `${gateway}?` +
       new URLSearchParams({
         name,
         type,

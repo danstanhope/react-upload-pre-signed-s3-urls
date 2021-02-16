@@ -1,2 +1,2 @@
-sam build
-sam deploy --guided
+`sam build`
+`sam deploy --guided`
