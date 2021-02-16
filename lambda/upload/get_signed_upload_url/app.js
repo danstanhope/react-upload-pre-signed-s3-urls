@@ -23,7 +23,7 @@ exports.handler = async (event) => {
       `getAllItems only accept GET method, you tried: ${event.httpMethod}`
     );
   }
-  console.log('event', event, event['queryStringParameters'])
+  
   let request = event['queryStringParameters'];
   let type = request['type'];
   let name = request['name'];
