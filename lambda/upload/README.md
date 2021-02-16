@@ -4,5 +4,5 @@
 
 #### To build run:
 
-```sam build```
+```sam build```  
 ```sam deploy --guided```
