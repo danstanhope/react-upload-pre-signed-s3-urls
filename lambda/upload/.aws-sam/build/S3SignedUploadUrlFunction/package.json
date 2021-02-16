@@ -1,0 +1,19 @@
+{
+  "name": "upload",
+  "version": "1.0.0",
+  "description": "video and audio uploader",
+  "main": "app.js",
+  "author": "SAM CLI",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "aws-sdk": "^2.478.0"
+  },
+  "scripts": {
+    "test": "mocha tests/unit/"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
