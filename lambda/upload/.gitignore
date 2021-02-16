@@ -1,2 +1,4 @@
 samconfig.toml
 y
+.DS_Store
+.aws-sam
