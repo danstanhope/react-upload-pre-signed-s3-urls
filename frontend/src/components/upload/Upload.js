@@ -42,6 +42,7 @@ const SignedUploadDragAndDrop = () => {
 
     return {
       options: {
+        sendWithFormData: false,
         destination: {
           url: uploadUrl,
           method: 'PUT',
